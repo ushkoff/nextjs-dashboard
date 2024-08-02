@@ -216,3 +216,9 @@ export function InvoicesTableSkeleton() {
     </div>
   );
 }
+
+export function CustomersTableSkeleton() {
+  return (
+    <div className='md:h-[410px]' />
+  );
+}
